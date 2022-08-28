@@ -1,11 +1,11 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: '砌玉曲', // 作者
-  BIO: '一曲新词酒一杯', // 作者简介
-  LINK: 'https://melody.com', // 网站地址
+  AUTHOR: '溪远选', // 作者
+  BIO: '一条承载故事的小溪', // 作者简介
+  LINK: 'https://strawberr选.com', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || '6fb513eb521c4abc8e209ce8568fc7d9', // Important page_id！！！Duplicate Template from https://almondine-carp-0eb.notion.site/6fb513eb521c4abc8e209ce8568fc7d9?v=4faa330d4a0540d996ea790d3b6204f5
+  process.env.NOTION_PAGE_ID || '88ef170b1ff145c685b895f8710a2d7e', // Important page_id！！！Duplicate Template from https://strawberryxuan.notion.site/88ef170b1ff145c685b895f8710a2d7e?v=66df6a85482a450396678a1be3be0018
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -52,7 +52,7 @@ const BLOG = {
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 鼠标点击烟花特效
 
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_PET_SWITCH_THEME: true, // 点击宠物挂件切换博客主题
