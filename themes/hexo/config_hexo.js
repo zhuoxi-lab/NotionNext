@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['来时浦口云随棹', '采罢江边月满楼', '收集北来的雪南来的花酿壶新酒酬新月🌙', '欢迎来到我的博客🎉'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['大江大水天自高', '一溪初入千花明', '摘一朵小桃花变作星星✨', '欢迎来到我的博客🎉'], // 首页大图标语文字
 
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
