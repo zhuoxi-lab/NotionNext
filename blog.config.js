@@ -2,7 +2,7 @@
 const BLOG = {
   AUTHOR: '溪远选', // 作者
   BIO: '一条承载故事的小溪', // 作者简介
-  LINK: 'https://sou-yun.cn/PoemIndex.aspx?dynasty=Tang&author=17578', // 网站地址
+  LINK: 'https://strawberryxuan.icu', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '88ef170b1ff145c685b895f8710a2d7e', // Important page_id！！！Duplicate Template from https://strawberryxuan.notion.site/88ef170b1ff145c685b895f8710a2d7e?v=66df6a85482a450396678a1be3be0018
